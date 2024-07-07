@@ -23,7 +23,11 @@ jobs:
 
       - name: Install Python packages
         run: |
-          pip install -r requirements.txt
+          pip install requests
+          pip install pyodbc
+          pip install pandas
+          pip install time
+          pip install json
 
       - name: List files in directory (optional for debugging)
         run: |
