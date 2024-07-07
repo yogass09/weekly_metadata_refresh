@@ -31,7 +31,7 @@ jobs:
 
       - name: Run Python script
         run: |
-          python ohlcv_daily_btc.py
+          python crypto_metadata.py
       - name: Run Python script
         run: |
-          python ohlcv_daily_btc.py
+          python exchange_metadata.py
